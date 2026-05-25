@@ -2,9 +2,9 @@ import pytest
 from unittest.mock import MagicMock
 from datetime import date
 
-from src.shop.models import User, Item, PromoCode
-from src.shop.order_processor import OrderProcessor
-from src.shop.pricing import DiscountCalculator, DeliveryCalculator
+from shop.models import User, Item, PromoCode
+from shop.order_processor import OrderProcessor
+from shop.pricing import DiscountCalculator, DeliveryCalculator
 
 
 # =====================================================================

@@ -1,6 +1,6 @@
 import pytest
-from src.shop.pricing import DeliveryCalculator, DiscountCalculator
-from src.shop.models import Item, User
+from shop.pricing import DeliveryCalculator, DiscountCalculator
+from shop.models import Item, User
 
 @pytest.fixture
 def basic_item():
